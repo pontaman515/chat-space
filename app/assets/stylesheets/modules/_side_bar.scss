@@ -14,11 +14,11 @@
       font-weight: bold;
       width: 300px;
       position: relative;
-      .side_bar_box__user-name {
+      &__user-name {
         font-weight: bold;
         color: white;
       }
-      .side_bar_box__menu {
+      &__menu {
         display: flex;
         justify-content: space-between;
         color: white;
@@ -27,11 +27,11 @@
         font-weight: bold;
         position: absolute;
         right: 0px;
-        .side_bar_box__edit-user {
+        &__edit-user {
           color: white;
         }
-         .side_bar_box__new-group {
-          color: white;
+          &__new-group {
+            color: white;
         }
         .icon1 {
           color: white;
@@ -43,11 +43,7 @@
       }
       }
   }
-  
 }
-
-
-
     .side_bar__group-list {
       height: calc(100vh - 100px);
       background-color: #2f3e51;
@@ -64,15 +60,3 @@
         padding-top: 5px;
       }
     }
-  
-
-// .side_bar_user-name {
-//   background-color: #253141;
-//   margin-top: 100px;
-//   height: 100px;
-// }
-
-// .side_bar_group-list {
-//   background-color: #2f3e51;
-//   height: calc(100vh - 100px);
-// }
