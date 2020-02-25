@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+.chat_main
+  .chat_main__group-info
+    %div.chat_main__group-info__leftbox
+      %p.chat_main__group-info__leftbox__name
+        test
+      %p.chat_main__group-info__leftbox__member_name
+        Member:Yoshimi
+    %a.chat_main__group-info__edit-btn
+      Edit
+  .chat_main__messages
+    .chat_main__messages__upper-info
+      %p.chat_main__messages__upper-info__talker
+        こんぶ
+      %p.chat_main__messages__upper-info__date
+        2020/02/25
+    %p.chat_main__messages__text
+      こんにちは
+  .chat_main__messages-form
+    .chat_main__messages-form__new_message
+      .chat_main__messages-form__new_message__input-box
+        %input{type: "text", class: "chat_main__messages-form__new_message__input-box__text", placeholder: "type a message"}
+        %label{class: "chat_main__messages-form__new_message__input-box__image"}
+          = icon('fas', 'image')
+          %input{type: "file", class:"chat_main__messages-form__new_message__input-box__image__file"}
+      %input{type: "submit", class: "submit-btn"}
