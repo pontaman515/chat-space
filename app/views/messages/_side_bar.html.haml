@@ -1,0 +1,18 @@
+.side_bar
+  .side-header
+    .side_bar_box
+      %p.side_bar_box__user-name
+        Yoshimi
+        %ul.side_bar_box__menu
+          %li.side_bar_box__edit-user
+            =link_to "#",class:"icon1" do
+              = icon('fas', 'edit')
+          %li.side_bar_box__new-group
+            =link_to "#",class:"icon2" do
+              = icon('fas', 'cog')
+  .side_bar__group-list
+    %p.group_name
+      techcamp
+    %p.group_message
+      まだメッセージがありません
+           
